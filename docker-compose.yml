@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  client:
+    image: 'nginx'
+    volumes:
+      - ./lessons/test-endpoint/client/dist/:/usr/share/nginx/html
+    ports:
+      - '8080:80'

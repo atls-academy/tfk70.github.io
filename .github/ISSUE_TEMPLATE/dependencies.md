@@ -1,12 +1,12 @@
 ---
 name: Dependencies update
 about: Уборка номера
-title: '[dependencies]'
 labels: dependencies
-assignees: TorinAsakura
+assignees: TFK70
 ---
 
 ### Список зависимостей на обновление
+
 **_Например:_**
 
 - [ ] #12
@@ -14,6 +14,7 @@ assignees: TorinAsakura
 - [ ] #14
 
 ### Блокирующие факторы
+
 **_Например:_**
 Для #12 необходимо обновить node 12 -> 14
 

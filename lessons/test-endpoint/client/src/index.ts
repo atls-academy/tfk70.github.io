@@ -15,6 +15,8 @@ const renderResponse = (response: Response) => {
   })
 }
 
+// TODO URL from environment
+
 const helloHandler = () => {
   fetch('http://localhost:4000/hello', { headers }).then(renderResponse)
 }

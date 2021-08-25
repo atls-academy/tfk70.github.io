@@ -1,2 +1,1 @@
-# study-template
-Template for students
+# TFK70

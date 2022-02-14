@@ -5,41 +5,41 @@
     background-color: var(--hero-color);
 }
 
-.hero__constraint {
+.heroConstraint {
     width: 1520px;
 }
 
-.hero__logo-container {
+.heroLogo-container {
     width: 480px;
     height: 40px;
 }
 
-.hero__logo-mobile {
+.heroLogo-mobile {
     display: none;
 }
 
-.hero__content-container {
+.heroContent-container {
     height: 508px;
     flex-shrink: 0;
 }
 
-.hero__description-container {
+.heroDescription-container {
     width: 1130px;
 }
 
-.hero__title {
+.heroTitle {
     font-size: var(--size-regular);
     color: var(--semi-transparent);
     text-transform: uppercase;
 }
 
-.hero__description {
+.heroDescription {
     color: var(--text-color-primary-inverse);
     font-size: var(--size-giant);
     line-height: var(--line-height-increased);
 }
 
-.hero__credit {
+.heroCredit {
     font-size: var(--size-regular);
     color: var(--text-color-primary-inverse);
     white-space: nowrap;
@@ -48,39 +48,39 @@
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-    .hero__constraint {
+    .heroConstraint {
         width: 100%;
         margin-right: 20px;
         margin-left: 20px;
     }
 
-    .hero__logo-container {
+    .heroLogo-container {
         width: 44px;
         height: 40px;
     }
 
-    .hero__logo-desktop {
+    .heroLogo-desktop {
         display: none;
     }
 
-    .hero__logo-mobile {
+    .heroLogo-mobile {
         display: flex;
     }
 
-    .hero__content-container {
+    .heroContent-container {
         height: 503px;
     }
 
-    .hero__description-container {
+    .heroDescription-container {
         width: 100%;
     }
 
-    .hero__description {
+    .heroDescription {
         font-size: var(--size-semi-big);
         line-height: var(--line-height-semi-increased);
     }
 
-    .hero__credit {
+    .heroCredit {
         font-size: var(--size-semi-regular)
     }
 }
@@ -92,26 +92,26 @@
         height: 1080px;
     }
 
-    .hero__constraint {
+    .heroConstraint {
         width: 100%;
         margin-right: 40px;
         margin-left: 40px;
     }
 
-    .hero__title {
+    .heroTitle {
         font-size: var(--size-almost-regular);
     }
 
-    .hero__description-container {
+    .heroDescription-container {
         width: 100%;
     }
 
-    .hero__description {
+    .heroDescription {
         font-size: var(--size-semi-giant);
         line-height: var(--line-height-big);
     }
 
-    .hero__content-container {
+    .heroContent-container {
         height: auto;
     }
 }

@@ -60,6 +60,10 @@ body {
     font-family: Arial;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .fill {
     width: 100%;
     height: 100%;

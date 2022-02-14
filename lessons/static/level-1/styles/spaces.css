@@ -1,0 +1,27 @@
+.space16 {
+    flex-basis: 16px;
+}
+
+.space32 {
+    flex-basis: 32px;
+}
+
+.space40 {
+    flex-basis: 40px;
+}
+
+.space60 {
+    flex-basis: 60px;
+}
+
+.space80 {
+    flex-basis: 80px;
+}
+
+.space160 {
+    flex-basis: 160px;
+}
+
+.space-fill {
+    flex-basis: 100%;
+}

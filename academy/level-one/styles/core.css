@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;500;600;700&display=swap');
+
+* {
+    --hero-color: #575478;
+    --background-color-white: #FFFFFF;
+    --text-color-primary: #000000;
+    --text-color-primary-inverse: #FFFFFF;
+    --text-color-secondary: rgba(95, 93, 102, 1);
+    --semi-transparent: rgba(255, 255, 255, 0.5);
+    --transparent: rgba(255, 255, 255, 0.25);
+    --transparent-inverse: rgba(0, 0, 0, 0.15);
+    --size-giant: 64px;
+    --size-semi-giant: 56px;
+    --size-big: 48px;
+    --size-medium: 32px;
+    --size-semi-big: 36px;
+    --size-incresed: 28px;
+    --size-almost-increased: 26px;
+    --size-semi-increased: 24px;
+    --size-semi-regular: 14px;
+    --size-almost-regular: 16px;
+    --size-regular: 18px;
+    --line-height-semi-increased: 43.2px;
+    --line-height-increased: 76.8px;
+    --line-height-big: 67.2px;
+    --line-height-medium: 28.8px;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.layout {
+    display: flex
+}
+
+.column {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.text {
+    font-family: Arial;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--transparent);
+}
+
+.divider-inverse {
+    width: 100%;
+    height: 1px;
+    background-color: var(--transparent-inverse);
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}

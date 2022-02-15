@@ -1,0 +1,117 @@
+.educationProcess {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: var(--background-color-white);
+}
+
+.educationProcess-constraint {
+    width: 1520px;
+}
+
+.educationProcessStages-container {
+    justify-content: space-between;
+}
+
+.educationProcess-title {
+    font-size: var(--size-big);
+    color: var(--text-color-primary);
+    font-weight: 400;
+}
+
+.educationProcessStage {
+    width: 220px;
+    height: 378px;
+}
+
+.educationProcessStage-image-container {
+    width: 100%;
+    height: 180px;
+    background-color: #E5E4EE;
+}
+
+.educationProcessStage-title {
+    font-size: var(--size-incresed);
+    color: var(--text-color-primary);
+    font-weight: 400;
+}
+
+.educationProcessStage-content {
+    color: var(--text-color-secondary);
+    font-size: var(--size-regular);
+    line-height: var(--line-height-medium);
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+    .educationProcess {
+        height: auto;
+    }
+
+    .educationProcess-constraint {
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .educationProcessStage {
+        width: 157.5px;
+        height: 297px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .educationProcessStages-container {
+        flex-wrap: wrap;
+    }
+
+    .educationProcessStage-image-container {
+        height: 132px;
+    }
+
+    .educationProcessStage-title {
+        font-size: var(--size-semi-increased);
+    }
+
+    .educationProcessStage-content {
+        font-size: var(--size-semi-regular);
+    }
+
+    .educationProcess-title {
+        font-size: var(--size-medium);
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+    .educationProcess {
+        height: auto;
+    }
+
+    .educationProcess-constraint {
+        width: 100%;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .educationProcessStages-container {
+        flex-wrap: wrap;
+    }
+
+    .educationProcessStage {
+        width: 206px;
+        height: 363px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .educationProcessStage-title {
+        font-size: var(--size-almost-increased);
+    }
+
+    .educationProcessStage-content {
+        font-size: var(--size-almost-regular);
+    }
+}

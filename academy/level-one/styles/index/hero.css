@@ -31,6 +31,7 @@
     font-size: var(--size-regular);
     color: var(--semi-transparent);
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .heroDescription {

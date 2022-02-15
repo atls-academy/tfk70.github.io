@@ -35,6 +35,10 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+a {
+    text-decoration: none;
+}
+
 .box {
     display: flex;
     box-sizing: border-box;
@@ -58,10 +62,6 @@ body {
 
 .text {
     font-family: Arial;
-}
-
-.link {
-    text-decoration: none;
 }
 
 .fill {

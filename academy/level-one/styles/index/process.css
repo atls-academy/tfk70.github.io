@@ -5,7 +5,7 @@
     background-color: var(--background-color-white);
 }
 
-.educationProcessConstraint {
+.educationProcess-constraint {
     width: 1520px;
 }
 
@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 
-.educationProcessTitle {
+.educationProcess-title {
     font-size: var(--size-big);
     color: var(--text-color-primary);
 }
@@ -23,18 +23,19 @@
     height: 378px;
 }
 
-.educationProcessStageImage-container {
+.educationProcessStage-image-container {
     width: 100%;
     height: 180px;
     background-color: #E5E4EE;
 }
 
-.educationProcessStageTitle {
+.educationProcessStage-title {
     font-size: var(--size-incresed);
-    color: var(--text-color-primary)
+    color: var(--text-color-primary);
+    font-weight: 400;
 }
 
-.educationProcessStageContent {
+.educationProcessStage-content {
     color: var(--text-color-secondary);
     font-size: var(--size-regular);
     line-height: var(--line-height-medium);
@@ -47,7 +48,7 @@
         height: auto;
     }
 
-    .educationProcessConstraint {
+    .educationProcess-constraint {
         width: 100%;
         margin-right: 20px;
         margin-left: 20px;
@@ -60,23 +61,23 @@
         margin-bottom: 20px;
     }
 
-    .educationProcessStage-container {
+    .educationProcessStages-container {
         flex-wrap: wrap;
     }
 
-    .educationProcessStageImage-container {
+    .educationProcessStage-image-container {
         height: 132px;
     }
 
-    .educationProcessStageTitle {
+    .educationProcessStage-title {
         font-size: var(--size-semi-increased);
     }
 
-    .educationProcessStageContent {
+    .educationProcessStage-content {
         font-size: var(--size-semi-regular);
     }
 
-    .educationProcessTitle {
+    .educationProcess-title {
         font-size: var(--size-medium);
     }
 }
@@ -88,13 +89,13 @@
         height: auto;
     }
 
-    .educationProcessConstraint {
+    .educationProcess-constraint {
         width: 100%;
         margin-right: 40px;
         margin-left: 40px;
     }
 
-    .educationProcessStage-container {
+    .educationProcessStages-container {
         flex-wrap: wrap;
     }
 
@@ -105,11 +106,11 @@
         margin-bottom: 20px;
     }
 
-    .educationProcessStageTitle {
+    .educationProcessStage-title {
         font-size: var(--size-almost-increased);
     }
 
-    .educationProcessStageContent {
+    .educationProcessStage-content {
         font-size: var(--size-almost-regular);
     }
 }

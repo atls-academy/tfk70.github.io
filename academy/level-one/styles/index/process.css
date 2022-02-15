@@ -16,6 +16,7 @@
 .educationProcess-title {
     font-size: var(--size-big);
     color: var(--text-color-primary);
+    font-weight: 400;
 }
 
 .educationProcessStage {

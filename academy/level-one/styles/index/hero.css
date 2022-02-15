@@ -14,10 +14,6 @@
     height: 40px;
 }
 
-.heroLogo-mobile {
-    display: none;
-}
-
 .heroContent-container {
     height: 508px;
     flex-shrink: 0;
@@ -58,14 +54,6 @@
     .heroLogo-container {
         width: 44px;
         height: 40px;
-    }
-
-    .heroLogo-desktop {
-        display: none;
-    }
-
-    .heroLogo-mobile {
-        display: flex;
     }
 
     .heroContent-container {
